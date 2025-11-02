@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Best of Ann Arbor 2025",
+    "date": "10/22/2025",
+    "url": "https://specials.michigandaily.com/2025/best-of-ann-arbor/results/",
+    "desc": "Monopoly themed website for The Michigan Daily's annual Best of Ann Arbor edition. Highlighting the city’s premier eats, drinks, treats and all the rest.",
+    "img_url": "boaa25.png"
+  },
+  {
+    "title": "U-M Grant Terminations",
+    "date": "9/17/2025",
+    "url": "https://specials.michigandaily.com/2025/grant-terminations/",
+    "desc": "News x Web：A collection of research projects at the University of Michigan whose grants have been terminated following a directive from the National Institutes of Health under President Donald Trump’s administration.",
+    "img_url": "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi0.wp.com%2Fwww.michigandaily.com%2Fwp-content%2Fuploads%2F2025%2F01%2FHow-could-potential-cuts-to-federal-health-and-research-funding-under-Trump-impact-UMich_-tentative-headline.png%3Fresize%3D1568%252C1045%26ssl%3D1"
+  },
+  {
+    "title": "University Research Project",
+    "date": "3/14/2025",
+    "url": "https://specials.michigandaily.com/2025/university-research/",
+    "desc": "News x Web: Highlighting 5 of the top researchers at the University of Michigan, with data graphics representing the university's most-cited disciplines.",
+    "img_url": "university-research.png"
+  },
+  {
+    "title": "The Statement Love Edition 2025",
+    "date": "2/14/2025",
+    "url": "https://specials.michigandaily.com/2025/love-notes/",
+    "desc": "Features 5 articles from 2025 Statement Love Edition as well as over 200 anonymous love notes sent in by readers. On Valentines Day, these love notes were emailed by the TMD web team using AWS SES.",
+    "img_url": "https://www.michigandaily.com/wp-content/uploads/2025/02/love-edition-cover-page-scaled.jpg"
+  }
+]

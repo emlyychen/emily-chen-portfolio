@@ -5,21 +5,21 @@ import { GeistMono } from 'geist/font/mono'
 import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import Footer from './components/footer'
+// import Footer from './components/footer'
 import { baseUrl } from './sitemap'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
+    default: 'Emily Chen',
     template: '%s | Next.js Portfolio Starter',
   },
-  description: 'This is my portfolio.',
+  description: `Hi! I'm a master's student studying computer science at the University of Michigan.`,
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Emily Chen',
+    description: `Hi! I'm a master's student studying computer science at the University of Michigan.`,
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Emily Chen',
     locale: 'en_US',
     type: 'website',
   },
@@ -52,11 +52,11 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased mx-auto mt-8 px-4 max-w-full md:max-w-3xl lg:max-w-5xl">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <Analytics />
           <SpeedInsights />
         </main>
