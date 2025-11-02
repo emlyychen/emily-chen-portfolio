@@ -74,7 +74,7 @@ export default function Page() {
             date=""
             url="/projects"
             desc=""
-            img_url="https://i.pinimg.com/736x/4f/e0/06/4fe0069b038ddb1b7a72af8f82afb6ea.jpg"
+            img_url="https://i.pinimg.com/736x/de/87/60/de87604127aa8d4ee0fa2aabe7900959.jpg"
           />
         </div>
       </div>
