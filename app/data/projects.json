@@ -10,7 +10,7 @@
     "title": "U-M Grant Terminations",
     "date": "9/17/2025",
     "url": "https://specials.michigandaily.com/2025/grant-terminations/",
-    "desc": "News x Web：A collection of research projects at the University of Michigan whose grants have been terminated following a directive from the National Institutes of Health under President Donald Trump’s administration.",
+    "desc": "A collection of research projects at the University of Michigan whose grants have been terminated following a directive from the National Institutes of Health under President Trump’s administration.",
     "img_url": "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi0.wp.com%2Fwww.michigandaily.com%2Fwp-content%2Fuploads%2F2025%2F01%2FHow-could-potential-cuts-to-federal-health-and-research-funding-under-Trump-impact-UMich_-tentative-headline.png%3Fresize%3D1568%252C1045%26ssl%3D1"
   },
   {
@@ -26,5 +26,19 @@
     "url": "https://specials.michigandaily.com/2025/love-notes/",
     "desc": "Features 5 articles from 2025 Statement Love Edition as well as over 200 anonymous love notes sent in by readers. On Valentines Day, these love notes were emailed by the TMD web team using AWS SES.",
     "img_url": "https://www.michigandaily.com/wp-content/uploads/2025/02/love-edition-cover-page-scaled.jpg"
+  },
+  {
+    "title": "2024 Presidential Election Guide",
+    "date": "10/22/2024",
+    "url": "https://specials.michigandaily.com/2024/presidential-elections/#/",
+    "desc": "The Michigan Daily’s 2024 elections guide. Includes info on how and where to vote, candidates from local to national levels, live voting results, and all of the Daily's election coverage.",
+    "img_url": "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2024/10/gel.DNC_.electionweb.jpeg"
+  },
+  {
+    "title": "Best of Ann Arbor 2024",
+    "date": "10/23/2024",
+    "url": "https://specials.michigandaily.com/2024/best-of-ann-arbor/results/",
+    "desc": "Postcard themed website for The Michigan Daily's annual Best of Ann Arbor edition. Highlighting the city’s premier eats, drinks, treats and all the rest.",
+    "img_url": "boaa24.png"
   }
 ]
