@@ -57,7 +57,7 @@ export default function Page() {
 
       {/* Projects grid below */}
       <div className="my-12">
-        <div className="grid grid-cols-2 gap-12 mx-auto w-9/10">
+        <div className="grid grid-cols-1 gap-4 mx-auto w-9/10 md:grid-cols-2 md:gap-12">
           {projects.slice(0, 3).map((proj) => (
             <ProjectCard
               key={proj.title}

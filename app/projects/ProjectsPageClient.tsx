@@ -26,7 +26,7 @@ export default function ProjectsPageClient() {
         </select>
       </div>
 
-      <div className="grid grid-cols-2 gap-12 mx-auto w-9/10">
+      <div className="grid grid-cols-1 gap-8 mx-auto w-9/10 md:grid-cols-2 md:gap-12">
         {sortedProjects.map((proj) => (
           <ProjectCard
             key={proj.title}
