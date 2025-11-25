@@ -7,6 +7,9 @@ const navItems = {
   '/projects': {
     name: 'projects',
   },
+  '/music': {
+    name: 'music'
+  },
   'https://www.youtube.com/watch?v=6_hl8AB7Uf0':{
     name: 'fish?'
   },

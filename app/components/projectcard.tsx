@@ -16,7 +16,7 @@
 export function ProjectCard({ title, date, url, desc, img_url }) {
   return (
     <div className="group relative w-full h-80 rounded-md overflow-hidden shadow-md transform transition-transform duration-300 hover:scale-103">
-      <a href={url} target="_blank" rel="noreferrer noopener" className="block h-full">
+      <a href={url} className="block h-full">
         <img
           src={img_url}
           className="absolute inset-0 w-full h-full object-cover"
