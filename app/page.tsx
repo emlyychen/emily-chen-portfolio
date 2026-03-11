@@ -4,7 +4,7 @@ import projects from "app/data/projects.json";
 import { ProjectCard } from "./components/projectcard";
 
 const latestProjects = projects.sort(
-  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
 );
 
 export default function Page() {
@@ -12,7 +12,10 @@ export default function Page() {
     <div className="px-8 py-12">
       {/* Intro row */}
       <div className="flex flex-col md:flex-row items-start justify-center gap-8">
-        <img className="flex-fill img-fluid w-1/3" src="grad_photo.png" />
+        <img
+          className="flex-fill img-fluid w-1/3 w-72 h-72 rounded-full object-cover"
+          src="punxsy_pic.jpg"
+        />
         <section className="flex-fill">
           <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
             Emily Chen
