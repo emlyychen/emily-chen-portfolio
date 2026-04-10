@@ -27,7 +27,7 @@ export default function Page() {
             {`Hi! I'm Emily, a Masters student studying computer science at The University of Michigan with a focus on human computer interaction and AI for accessibility. I'm currently an AI & Machine Learning Fellow at `}
             <a
               href="https://www.texastribune.org/"
-              className="underline text-blue-400"
+              className="underline text-blue-400 hover:text-violet-400"
             >
               The Texas Tribune
             </a>
@@ -37,7 +37,7 @@ export default function Page() {
             {`Previously, I was an intern at `}
             <a
               href="https://www.sartorius.com/en"
-              className="underline text-blue-400"
+              className="underline text-blue-400 hover:text-violet-400"
             >
               Sartorius
             </a>
@@ -48,7 +48,7 @@ export default function Page() {
             {`I'm also Managing Online Editor at `}
             <a
               href="https://www.michigandaily.com"
-              className="underline text-blue-400"
+              className="underline text-blue-400 hover:text-violet-400"
             >
               The Michigan Daily
             </a>
@@ -61,7 +61,7 @@ export default function Page() {
           <p className="mb-4">
             {" "}
             Check out my latest work{" "}
-            <a href="/projects" className="underline text-blue-400">
+            <a href="/projects" className="underline text-blue-400 hover:text-violet-400">
               here
             </a>
             !{" "}

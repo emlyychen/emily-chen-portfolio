@@ -2,7 +2,7 @@
     {
         "company": "The Texas Tribune",
         "role": "AI & Machine Learning Fellow",
-        "location": "Austin, TX",
+        "location": "Austin, TX (Remote)",
         "date": "Jan 2026 - Present",
         "desc": "Leveraging large language models to develop an AI-powered tag recommendation system for news articles, deployed via AWS Lambda and integrated into custom WordPress plugins to support high-volume editorial workflows. ",
         "color": "#fff",

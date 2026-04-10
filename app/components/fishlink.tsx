@@ -3,29 +3,33 @@ import { useEffect, useRef, useState } from "react";
 
 const FishLink = ({
   href = "https://www.youtube.com/watch?v=6_hl8AB7Uf0",
-  interval = 12000,
-  autoSwim = false,  // add this prop
+  interval = 10000,
+  autoSwim = false,
 }) => {
   const [visible, setVisible] = useState(false);
-  const [dir, setDir] = useState("right");
+  const [dir, setDir] = useState(Math.random() < 0.5 ? "right" : "left");
   const [yPos, setYPos] = useState(50);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const swim = () => {
-    const goRight = Math.random() > 0.5;
-    setDir(goRight ? "right" : "left");
-    const maxY = document.body.scrollHeight - 1000;
+    const maxY = document.body.scrollHeight - 800;
     setYPos(Math.random() * maxY);
     setVisible(true);
-    setTimeout(() => setVisible(false), 8000);
+    setTimeout(() => {
+      setVisible(false);
+      setDir(prev => prev === "right" ? "left" : "right");
+    }, 8000);
   };
 
   useEffect(() => {
     if (autoSwim) swim(); // swim immediately if toggled on
-    const delay = setTimeout(() => {
-      if (!autoSwim) swim(); // otherwise wait 2s on first mount
-      timerRef.current = setInterval(swim, interval);
-    }, autoSwim ? 0 : 2000);
+    const delay = setTimeout(
+      () => {
+        if (!autoSwim) swim(); // otherwise wait 2s on first mount
+        timerRef.current = setInterval(swim, interval);
+      },
+      autoSwim ? 0 : 2000,
+    );
 
     return () => {
       clearTimeout(delay);
@@ -62,7 +66,10 @@ const FishSVG = () => (
     width="140"
     height="56"
     viewBox="0 0 140 56"
-    style={{ animation: "bodyBob 0.5s ease-in-out infinite" }}
+    style={{
+      animation: "bodyBob 0.5s ease-in-out infinite",
+      filter: "drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4))",
+    }}
   >
     <defs>
       <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
