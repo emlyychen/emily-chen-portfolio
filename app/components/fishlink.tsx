@@ -45,7 +45,7 @@ const FishLink = ({
       target="_blank"
       rel="noopener noreferrer"
       style={{
-        position: "absolute", // <-- was "fixed"
+        position: "absolute",
         top: yPos,
         left: 0,
         zIndex: 9999,
