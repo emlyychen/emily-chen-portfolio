@@ -2,6 +2,8 @@ import { BlogPosts } from "app/components/posts";
 import Links from "./components/links";
 import projects from "app/data/projects.json";
 import { ProjectCard } from "./components/projectcard";
+import FishLink from "./components/fishlink";
+import FishToggle from "./components/fishtoggle";
 
 const latestProjects = projects.sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
@@ -22,8 +24,17 @@ export default function Page() {
           </h1>
           <Links />
           <p className="mb-4">
-            {`Hi! I'm Emily, a Masters student studying computer science at The University of Michigan with a focus on human computer interaction and AI for accessibility.
-            Previously, I was an intern at `}
+            {`Hi! I'm Emily, a Masters student studying computer science at The University of Michigan with a focus on human computer interaction and AI for accessibility. I'm currently an AI & Machine Learning Fellow at `}
+            <a
+              href="https://www.texastribune.org/"
+              className="underline text-blue-400"
+            >
+              The Texas Tribune
+            </a>
+            {`, where I'm working on an AI tag suggestion model to streamline categorization for editorial workflows.`}
+          </p>
+          <p>
+            {`Previously, I was an intern at `}
             <a
               href="https://www.sartorius.com/en"
               className="underline text-blue-400"
@@ -58,8 +69,15 @@ export default function Page() {
         </section>
       </div>
 
+      <div style={{ position: "relative" }}>
+        <FishToggle href="https://www.youtube.com/watch?v=VlcI2Vu5uV4" />
+      </div>
+
       {/* Projects grid below */}
       <div className="my-12">
+        <h1 className="mb-4 text-2xl font-bold tracking-tight text-heading md:text-2xl lg:text-3xl">
+          Recent Projects
+        </h1>
         <div className="grid grid-cols-1 gap-4 mx-auto w-9/10 md:grid-cols-2 md:gap-12">
           {projects.slice(0, 3).map((proj) => (
             <ProjectCard

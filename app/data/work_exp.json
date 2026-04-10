@@ -1,0 +1,63 @@
+[
+    {
+        "company": "The Texas Tribune",
+        "role": "AI & Machine Learning Fellow",
+        "location": "Austin, TX",
+        "date": "Jan 2026 - Present",
+        "desc": "Leveraging large language models to develop an AI-powered tag recommendation system for news articles, deployed via AWS Lambda and integrated into custom WordPress plugins to support high-volume editorial workflows. ",
+        "color": "#fff",
+        "bg_color": "#404040",
+        "icon": "StarIcon",
+        "icon_color": "#404040",
+        "icon_bg": "#FFD230"
+    },
+    {
+        "company": "The Michigan Daily",
+        "role": "Managing Online Editor",
+        "location": "Ann Arbor, MI",
+        "date": "Jan 2024 - Present",
+        "desc": "Led a 40+ person team across engineering, data, and design to build and maintain a high-traffic news website serving 6M+ annual page views, delivering interactive features and redesigned digital products using React, Next.js, and Python.",
+        "color": "#00274C",
+        "bg_color": "#FFFAF0",
+        "icon": "NewspaperIcon",
+        "icon_color": "#00274C",
+        "icon_bg": "#FFFAF0"
+    },
+    {
+        "company": "Sartorius",
+        "role": "Software Engineer Intern",
+        "location": "Ann Arbor, MI",
+        "date": "May 2025 - Aug 2025",
+        "desc": "Developed ML-based nucleus detection models for the IncuCyte live cell analysis platform, benchmarked AI inference pipelines, and modernized cross-platform software architecture across multiple internal projects.",
+        "color": "#000",
+        "bg_color": "#FFED00",
+        "icon": "BiotechIcon",
+        "icon_color": "#000",
+        "icon_bg": "#FFED00"
+    },
+    {
+        "company": "University of Michigan",
+        "role": "Instructional Aide - Accessible Computing (EECS 495)",
+        "location": "Ann Arbor, MI",
+        "date": "Jan 2025 - May 2025",
+        "desc": "Mentored 30+ students in UX design and accessibility by leading discussion, conducting weekly office hours and answering questions on Slack to support their semester-long coding projects.",
+        "color": "#fff",
+        "bg_color": "#2984D1",
+        "icon": "LightbulbIcon",
+        "icon_color": "#FFCB05",
+        "icon_bg": "#2984D1"
+    },
+    {
+        "company": "U-M Information and Technology Services",
+        "role": "Software Engineer Intern",
+        "location": "Ann Arbor, MI",
+        "date": "May 2023 - Dec 2024",
+        "desc": "Built and led development of cross-platform applications, implemented and scaled Duo 2FA authentication impacting 100,000+ users, and developed AI-driven identity verification solutions within IAM systems.",
+        "color": "#fff",
+        "bg_color": "#00274C",
+        "icon": "CodeIcon",
+        "icon_color": "#FFCB05",
+        "icon_bg": "#00274C"
+    }
+
+]
