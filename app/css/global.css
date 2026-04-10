@@ -17,6 +17,9 @@ body::before {
   z-index: -1;
 }
 
+body, html {
+  overflow-x: hidden; /* prevent scroll when fish swims offscreen */
+}
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
@@ -168,12 +171,12 @@ table {
 
 /* Fish animation */
 @keyframes swimRight {
-  0%   { transform: translateX(-1000px); }
+  0%   { transform: translateX(-350px); }
   100% { transform: translateX(100vw); }
 }
 @keyframes swimLeft {
   0%   { transform: translateX(100vw) scaleX(-1); }
-  100% { transform: translateX(-1000px) scaleX(-1); }
+  100% { transform: translateX(-350px) scaleX(-1); }
 }
 @keyframes tailWag {
   0%, 100% { transform: skewY(0deg) rotate(0deg); }
