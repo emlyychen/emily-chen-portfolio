@@ -56,8 +56,16 @@ export default function Page() {
             and engaging data-driven articles.`}
           </p>
           <p className="mb-4">
-            {`In my free time, you can find me playing guitar and singing with my band, Playing Koi.  𓆝 𓆟 𓆞 𓆝`}
+            {`In my free time, you can find me playing guitar and singing with my band, `}
+            <a
+              href="https://nwshimon.github.io/playing-koi/"
+              className="underline text-blue-400 hover:text-violet-400"
+            >
+              Playing Koi
+            </a>
+            {`.  𓆝 𓆟 𓆞 𓆝`}
           </p>
+          
           <p className="mb-4">
             {" "}
             Check out my latest work{" "}
